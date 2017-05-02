@@ -1,6 +1,9 @@
 $("document").ready(function() {
     $("#theTarget").skippr();
 });
+$(".menu-box").click(function(){
+    $(".nav-list").slideToggle();
+});
  
 // オプションを指定してSkipperの実行
 $("#theTarget").skippr({
@@ -25,3 +28,5 @@ $("#theTarget").skippr({
     // 一枚目のスライド表示時に戻る矢印を表示するかどうか(falseで非表示)
     hidePrevious : false
 });
+
+
